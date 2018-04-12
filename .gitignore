@@ -1,0 +1,14 @@
+# Logs
+npm-debug.log
+
+# Dependency directories
+node_modules/
+
+# Bundle output directories
+dist/
+
+# Coverage directory
+coverage/
+
+# Mac specific files
+**/.DS_Store

@@ -1,0 +1,52 @@
+{
+  "name": "react-redux-boilerplate",
+  "description": "A boilerplate for building single page application using React and Redux",
+  "version": "1.0.0",
+  "author": "Shinji Takae <s.takae@sonyged.com>",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "enzyme": "^2.9.1",
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "fixpack": "^2.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "jest": "^20.0.4",
+    "nock": "^9.0.14",
+    "react-test-renderer": "^15.6.1",
+    "redux-mock-store": "^1.2.3",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "homepage": "https://bitbucket.org/sonyged/react-redux-boilerplate#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/sonyged/react-redux-boilerplate.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "test": "NODE_ENV=test jest --verbose",
+    "coverage": "npm test -- --coverage --verbose",
+    "lint": "eslint ."
+  }
+}

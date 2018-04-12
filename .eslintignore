@@ -1,0 +1,12 @@
+# test codes
+src/**/*.test.js
+src/**/*.spec.js
+
+# test coverage files
+coverage/**
+
+# built files
+dist/
+
+# webpack config
+webpack.config.js

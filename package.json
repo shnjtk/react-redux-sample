@@ -45,9 +45,9 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open",
-    "test": "NODE_ENV=test jest --verbose",
     "coverage": "npm test -- --coverage --verbose",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "webpack-dev-server --open",
+    "test": "NODE_ENV=test jest --verbose"
   }
 }

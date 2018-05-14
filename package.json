@@ -1,8 +1,8 @@
 {
-  "name": "react-redux-boilerplate",
-  "description": "A boilerplate for building single page application using React and Redux",
+  "name": "react-redux-sample",
+  "description": "A sample code for building single page application using React and Redux",
   "version": "1.0.0",
-  "author": "Shinji Takae <s.takae@sonyged.com>",
+  "author": "Shinji Takae <shnjtk@gmail.com>",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "prop-types": "^15.5.10",
@@ -35,13 +35,13 @@
     "webpack-cli": "^2.1.3",
     "webpack-dev-server": "^3.1.4"
   },
-  "homepage": "https://bitbucket.org/sonyged/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/shnjtk/react-redux-sample#readme",
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/sonyged/react-redux-boilerplate.git"
+    "url": "git+ssh://git@github.com/shnjtk/react-redux-sample.git"
   },
   "scripts": {
     "build": "webpack",
